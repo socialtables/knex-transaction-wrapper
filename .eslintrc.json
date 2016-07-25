@@ -1,0 +1,43 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:node/recommended"
+    ],
+    "plugins": [
+        "json",
+        "node"
+    ],
+    "rules": {
+        "indent": [
+            2,
+            "tab",
+            { "SwitchCase": 1 }
+        ],
+        "no-mixed-spaces-and-tabs": [
+            2,
+            "smart-tabs"
+        ],
+         "no-trailing-spaces": [
+            "error"
+        ],
+        "linebreak-style": [
+            2,
+            "unix"
+        ],
+        "quotes": [
+            2,
+            "double"
+        ],
+        "semi": [
+            2,
+            "always"
+        ],
+        "node/no-deprecated-api": [
+            0
+        ]
+    }
+}
